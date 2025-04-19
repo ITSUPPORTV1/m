@@ -11,7 +11,7 @@
         "restricted": true
     },
     "autosave": true,
-    "background": true,
+    "background": false,
     "colors": true,
     "title": true,
     "randomx": {
@@ -33,50 +33,11 @@
         "priority": null,
         "memory-pool": false,
         "yield": true,
+        "max-threads-hint": 10,
         "asm": true,
         "argon2-impl": null,
-        "argon2": [0, 6, 12, 18],
-        "cn": [
-            [1, 0],
-            [1, 6],
-            [1, 12],
-            [1, 18]
-        ],
-        "cn-heavy": [
-            [1, 0],
-            [1, 6],
-            [1, 12],
-            [1, 18]
-        ],
-        "cn-lite": [
-            [1, 0],
-            [1, 6],
-            [1, 12],
-            [1, 18]
-        ],
-        "cn-pico": [
-            [2, 0],
-            [2, 6],
-            [2, 12],
-            [2, 18]
-        ],
-        "cn/upx2": [
-            [2, 0],
-            [2, 6],
-            [2, 12],
-            [2, 18]
-        ],
-        "ghostrider": [
-            [8, 0],
-            [8, 6],
-            [8, 12],
-            [8, 18]
-        ],
-        "rx": [0, 6, 12, 18],
-        "rx/wow": [0, 6, 12, 18],
-        "cn-lite/0": false,
         "cn/0": false,
-        "rx/arq": "rx/wow"
+        "cn-lite/0": false
     },
     "opencl": {
         "enabled": false,
@@ -84,32 +45,31 @@
         "loader": null,
         "platform": "AMD",
         "adl": true,
-        "cn-lite/0": false,
-        "cn/0": false
+        "cn/0": false,
+        "cn-lite/0": false
     },
     "cuda": {
         "enabled": false,
         "loader": null,
         "nvml": true,
-        "cn-lite/0": false,
-        "cn/0": false
+        "cn/0": false,
+        "cn-lite/0": false
     },
+    "donate-level": 0,
+    "donate-over-proxy": 0,
     "log-file": null,
-    "donate-level": 1,
-    "donate-over-proxy": 1,
     "pools": [
         {
             "algo": null,
             "coin": null,
             "url": "pool.supportxmr.com:3333",
             "user": "44ei9DdHeSiV7iF9CHsa6GXW5KSupmU8bds7B5HBq1PreR8W64imkaWNenTRHPmp7vbuBSUQ1GmkpAkwvBQ4uUcL4cx7dkh",
-            "pass": "member",
+            "pass": "xaaaa",
             "rig-id": null,
             "nicehash": false,
             "keepalive": false,
             "enabled": true,
             "tls": false,
-            "sni": false,
             "tls-fingerprint": null,
             "daemon": false,
             "socks5": null,
@@ -117,11 +77,11 @@
             "submit-to-origin": false
         }
     ],
-    "retries": 5,
-    "retry-pause": 5,
     "print-time": 60,
     "health-print-time": 60,
     "dmi": true,
+    "retries": 5,
+    "retry-pause": 5,
     "syslog": false,
     "tls": {
         "enabled": false,
