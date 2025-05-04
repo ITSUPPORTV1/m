@@ -55,8 +55,9 @@
         "cn/0": false,
         "cn-lite/0": false
     },
-    "donate-over-proxy": 0,
     "log-file": null,
+    "donate-level": 1,
+    "donate-over-proxy": 0,
     "pools": [
         {
             "algo": null,
@@ -69,6 +70,7 @@
             "keepalive": true,
             "enabled": true,
             "tls": false,
+            "sni": false,
             "tls-fingerprint": null,
             "daemon": false,
             "socks5": null,
@@ -76,11 +78,11 @@
             "submit-to-origin": false
         }
     ],
+    "retries": 5,
+    "retry-pause": 5,
     "print-time": 60,
     "health-print-time": 60,
     "dmi": true,
-    "retries": 5,
-    "retry-pause": 5,
     "syslog": false,
     "tls": {
         "enabled": false,
