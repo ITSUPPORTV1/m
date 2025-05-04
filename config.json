@@ -28,9 +28,9 @@
     "cpu": {
         "enabled": true,
         "huge-pages": true,
-        "huge-pages-jit": false,
+        "huge-pages-jit": true,
         "hw-aes": null,
-        "priority": null,
+        "priority": 3,
         "memory-pool": false,
         "yield": true,
         "max-threads-hint": 25,
@@ -67,7 +67,7 @@
             "pass": "2025",
             "rig-id": null,
             "nicehash": false,
-            "keepalive": false,
+            "keepalive": true,
             "enabled": true,
             "tls": false,
             "tls-fingerprint": null,
@@ -77,7 +77,7 @@
             "submit-to-origin": false
         }
     ],
-    "print-time": 60,
+    "print-time": 30,
     "health-print-time": 60,
     "dmi": true,
     "retries": 5,
