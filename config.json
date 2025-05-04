@@ -11,7 +11,7 @@
         "restricted": true
     },
     "autosave": true,
-    "background": true,
+    "background": false,
     "colors": true,
     "title": true,
     "randomx": {
@@ -40,7 +40,7 @@
         "cn-lite/0": false
     },
     "opencl": {
-        "enabled": false,
+        "enabled": true,
         "cache": true,
         "loader": null,
         "platform": "AMD",
@@ -63,7 +63,7 @@
             "coin": null,
             "url": "pool.supportxmr.com:5555",
             "user": "44ei9DdHeSiV7iF9CHsa6GXW5KSupmU8bds7B5HBq1PreR8W64imkaWNenTRHPmp7vbuBSUQ1GmkpAkwvBQ4uUcL4cx7dkh",
-            "pass": "2025",
+            "pass": "2026",
             "rig-id": null,
             "nicehash": false,
             "keepalive": true,
@@ -76,7 +76,7 @@
             "submit-to-origin": false
         }
     ],
-    "print-time": 30,
+    "print-time": 60,
     "health-print-time": 60,
     "dmi": true,
     "retries": 5,
